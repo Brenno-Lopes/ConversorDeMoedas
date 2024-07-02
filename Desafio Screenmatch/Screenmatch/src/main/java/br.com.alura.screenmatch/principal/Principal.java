@@ -1,10 +1,14 @@
 package br.com.alura.screenmatch.principal;
 import br.com.alura.screenmatch.model.DadosAPI;
-import br.com.alura.screenmatch.model.DadosResults;
+import br.com.alura.screenmatch.model.DadosTitle;
+import br.com.alura.screenmatch.service.CadastroLista;
 import br.com.alura.screenmatch.service.ConsumoAPI;
 import br.com.alura.screenmatch.service.ConverteDados;
+import br.com.alura.screenmatch.service.RetornoDados;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -15,6 +19,9 @@ public class Principal {
     String URL_BASE = "https://gutendex.com/books/?search=";
     ConverteDados conversor = new ConverteDados();
     ConsumoAPI teste = new ConsumoAPI();
+    CadastroLista cadastrolista = new CadastroLista();
+
+    
 
 
 
@@ -33,38 +40,36 @@ public class Principal {
         System.out.println(menuPrincipal);
     }
 
-    public void opcaoUm() throws JsonProcessingException {
-        System.out.println("Digite o nome do livro que deseja buscar");
-
-        //Declaração de Var e Arrays
-        var livro = leitura.nextLine();
-        var json = teste.obterDados(URL_BASE + livro);
-        ObjectMapper mapper = new ObjectMapper();
-        List Results;
-        String livroAPI;
-
-        //Modelagem Dados API
-        DadosAPI dados = conversor.obterDados(json, DadosAPI.class);
-        Results = dados.results();
 
 
-          livroAPI = String.valueOf(Results.get(0));
-          System.out.println(livroAPI);
-//
-//        DadosResults resultado = conversor.obterDados(livroAPI, DadosResults.class);
-//        var teste = String.valueOf(resultado);
-//
-//
-//        System.out.println(resultado);
-//        System.out.println(teste);
-
-        //converção dos Dados do Results
-
-
-        //converção dos Dados Ator
-
+    public void opcaoUmTitulo() throws JsonProcessingException {
+        var consultaDados = new RetornoDados();
+        var autor = consultaDados.opcaoUm();
+        System.out.println(autor);
+        autor.get(1);
+        autor.get(2);
 
     }
+
+    //public String opcaoUmAutor() throws JsonProcessingException {
+
+    //}
+
+
+
+    //opcaoDois
+    public void opcaoDois(ArrayList ListaAValidar){
+        System.out.println(ListaAValidar);
+    }
+
+    //opcaoTres
+    public void opcaoTres(List ListaAValidar){
+        System.out.println(ListaAValidar);
+    }
+
+
+
+
 
 
 
