@@ -4,32 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7968d275-2b93-4c56-a26c-10e9840652bf" name="Changes" comment="Função 1 - Buscar livros">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/ScreenmatchApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/DadosAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/DadosAutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/DadosResults.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/principal/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/ConsumoAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/ConverteDados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/IConverteDados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/menuVerificacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/test/java/br/com/alura/Screenmatch/ScreenmatchApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/br/com/alura/challenge/service/ConsultaMoeda.java" beforeDir="false" />
+    <list default="true" id="7968d275-2b93-4c56-a26c-10e9840652bf" name="Changes" comment="Atualização dos Projetos.">
+      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/DadosTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/CadastroLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/RetornoDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/IntelliJ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/libraries/google_code_gson.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/main/src/br/com/alura/challenge/model/Dados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/main/src/br/com/alura/challenge/model/Moedas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/main/src/br/com/alura/challenge/service/ConsultaMoeda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Curso 1/main/src/br/com/alura/challenge/service/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/ScreenmatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/ScreenmatchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/principal/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,6 +54,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
@@ -138,11 +147,28 @@
       <option name="project" value="LOCAL" />
       <updated>1719706893325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Atualização dos Projetos.">
+      <option name="closed" value="true" />
+      <created>1719708863949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719708863949</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Atualização dos Projetos.">
+      <option name="closed" value="true" />
+      <created>1719708941176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719708941176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Função 1 - Buscar livros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Função 1 - Buscar livros" />
+    <MESSAGE value="Atualização dos Projetos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização dos Projetos." />
   </component>
 </project>
