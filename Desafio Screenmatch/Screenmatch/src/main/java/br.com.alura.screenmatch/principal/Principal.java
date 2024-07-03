@@ -1,12 +1,10 @@
 package br.com.alura.screenmatch.principal;
 import br.com.alura.screenmatch.model.DadosAPI;
-import br.com.alura.screenmatch.model.DadosTitle;
 import br.com.alura.screenmatch.service.CadastroLista;
 import br.com.alura.screenmatch.service.ConsumoAPI;
 import br.com.alura.screenmatch.service.ConverteDados;
 import br.com.alura.screenmatch.service.RetornoDados;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +18,7 @@ public class Principal {
     ConverteDados conversor = new ConverteDados();
     ConsumoAPI teste = new ConsumoAPI();
     CadastroLista cadastrolista = new CadastroLista();
+    RetornoDados retornoDados = new RetornoDados();
 
     
 
@@ -40,32 +39,41 @@ public class Principal {
         System.out.println(menuPrincipal);
     }
 
+    public String OpcaoUm (String livro) {
+        var json = retornoDados.opcaoUm(livro);
 
+        DadosAPI dados = conversor.obterDados(json, DadosAPI.class);
+        var Results = dados.results();
+        var Consulta = Results.get(0);
 
-    public void opcaoUmTitulo() throws JsonProcessingException {
-        var consultaDados = new RetornoDados();
-        var autor = consultaDados.opcaoUm();
-        System.out.println(autor);
-        autor.get(1);
-        autor.get(2);
+        System.out.println(Consulta);
 
+        return json;
     }
 
-    //public String opcaoUmAutor() throws JsonProcessingException {
+    //Metodo para retorno do Titulo
+    public String OpcaoUmTitulo (String json) throws JsonProcessingException {
+        return retornoDados.opcaoUmTitulo(json);
+    }
 
-    //}
+    //Metodo para retorno do Nome do Autor
+    public String OpcaoUmAutorNome (String json) throws JsonProcessingException {
+        return retornoDados.opcaoTresAutor(json);
+    }
+
+    //Metodo para retorno da Data de morte do Autor
+    public List opcaoQuatro (String json) throws JsonProcessingException {
+
+        return retornoDados.opcaoQuatroNomeEDataMorte(json);
+    }
 
 
-
-    //opcaoDois
-    public void opcaoDois(ArrayList ListaAValidar){
+    //Metodo para cadastro na Array
+    public void opcaoDoisETres(ArrayList ListaAValidar){
         System.out.println(ListaAValidar);
     }
 
-    //opcaoTres
-    public void opcaoTres(List ListaAValidar){
-        System.out.println(ListaAValidar);
-    }
+
 
 
 

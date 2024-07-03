@@ -3,36 +3,61 @@ import br.com.alura.screenmatch.model.DadosAPI;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
-
 public class RetornoDados {
     String URL_BASE = "https://gutendex.com/books/?search=";
-    Scanner leitura = new Scanner(System.in);
     ConverteDados conversor = new ConverteDados();
     ConsumoAPI teste = new ConsumoAPI();
 
+    public String opcaoUm(String livro) {
+        return teste.obterDados(URL_BASE + livro);
+    }
 
 
-    public List opcaoUm() throws JsonProcessingException {
-        System.out.println("Digite o nome do livro que deseja buscar");
+    public String opcaoUmTitulo(String json) throws JsonProcessingException {
 
-        //Declaração de Var e Arrays
-        var livro = leitura.nextLine();
-        var json = teste.obterDados(URL_BASE + livro);
+        //Modelagem Dados API
+        DadosAPI dados = conversor.obterDados(json, DadosAPI.class);
+        var Results = dados.results();
+        var Consulta = Results.get(0);
+
+        return Consulta.Titulo();
+    }
+
+    public String opcaoTresAutor(String json) throws JsonProcessingException {
+
+        //Modelagem Dados API
+        DadosAPI dados = conversor.obterDados(json, DadosAPI.class);
+        var Results = dados.results();
+        var Consulta = Results.get(0);
+        var autor = Consulta.dadosAutorList();
+        var nome = autor.get(0);
+
+        return nome.nome();
+    }
+
+    public List opcaoQuatroNomeEDataMorte(String json) throws JsonProcessingException {
 
         //Modelagem Dados API
         DadosAPI dados = conversor.obterDados(json, DadosAPI.class);
 
         var Results = dados.results();
         var Consulta = Results.get(0);
-        String titulo = Consulta.Titulo();
-        List autor = Consulta.dadosAutorList();
-        var nome = autor.get(0);
-        System.out.println(nome);
+        List Autor = Consulta.dadosAutorList();
+        System.out.println(Autor);
+        return Autor;
+    }
 
-        return autor;
+    public List opcaoCincoIdioma(String json) throws JsonProcessingException {
+
+        //Modelagem Dados API
+        DadosAPI dados = conversor.obterDados(json, DadosAPI.class);
+
+        var Results = dados.results();
+        var Consulta = Results.get(0);
+        var Idioma = Consulta.idioma();
+
+        return Idioma;
     }
 
 }
