@@ -1,7 +1,24 @@
 Esse Repositorio tem como objetivo Anexar todos os desafios realizados durante o Projeto One, disponibilizado pela Alura em conjunto com a Oracle.
 
+Projeto - Conversor de Moedas
 
+Descrição do Projeto:
+Este projeto foi um desafio realizado durante o projeto ONE, realizado pela Alura em conjunto com a Oracle, onde o intuito seria a realização de um conversor atualizado pela API exchangerate.
 
+Esse programa tem as funcionalidades para converter as seguintes Moedas;
+- Dolar
+- Real
+- Peso Argentino
+- Peso Colombiano
+
+a conversão e realizada pela API, onde a mesma e atualizada constantemente assim tendo uma atualização de valores de forma dinamica.
+
+Fontes utilizadas para criação do codigo;
+Luri (IA disponibilizada para estudantes Alura apartir de um determinado plano);
+Discord dos Alunos Alura;
+Documentos fornecidos pela API exchangerate;
+
+------##########------- ------##########------- ------##########------- ------##########------- ------##########------- ------##########-------
 
 Projeto - Literalura
 
@@ -20,11 +37,15 @@ Por se tratar de um desafio do curso, ainda estou realizando testes e validaçõ
 
 Fontes utilizadas para criação do codigo;
 Luri (IA disponibilizada para estudantes Alura apartir de um determinado plano);
-Gutendex;
+Documentos fornecidos pela API Gutendex;
 Discord dos Alunos Alura;
 
+------##########-------------##########-------------##########-------------##########-------------##########-------------##########-------
 
-Autor do Projeto;
+
+Autor dos Projetos;
 Brenno Lopes
 
 LinkedIn:https://www.linkedin.com/in/brenno-santos-9b3b67226/
+
+
