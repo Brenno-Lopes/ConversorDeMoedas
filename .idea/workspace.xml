@@ -4,28 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7968d275-2b93-4c56-a26c-10e9840652bf" name="Changes" comment="Atualização dos Projetos.">
-      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/DadosTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/CadastroLista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/RetornoDados.java" afterDir="false" />
+    <list default="true" id="7968d275-2b93-4c56-a26c-10e9840652bf" name="Changes" comment="Metodo OpcaoTres - Testes OpcaoQuatro.">
+      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/autor/Autor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/livro/DadosLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/livro/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/modelBanco/EntidadeAutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/modelBanco/EntidadeLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/IntelliJ.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/libraries/google_code_gson.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/main/src/br/com/alura/challenge/model/Dados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/main/src/br/com/alura/challenge/model/Moedas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/main/src/br/com/alura/challenge/service/ConsultaMoeda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Curso 1/main/src/br/com/alura/challenge/service/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/ScreenmatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/ScreenmatchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/ScreenmatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/principal/ScreenmatchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/DadosAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/DadosAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/DadosAutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/autor/DadosAutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/DadosResults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/model/DadosTitle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/principal/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/CadastroLista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/ConverteDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/ConverteDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/IConverteDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/RetornoDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/RetornoDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/ValidaçãoDeDadosNaArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/java/br.com.alura.screenmatch/service/menuVerificacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio Screenmatch/Screenmatch/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +96,11 @@
   </component>
   <component name="RunManager">
     <configuration name="ScreenmatchApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.screenmatch.ScreenmatchApplication" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.screenmatch.principal.ScreenmatchApplication" />
       <module name="Screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.screenmatch.*" />
+          <option name="PATTERN" value="br.com.alura.screenmatch.principal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +163,38 @@
       <option name="project" value="LOCAL" />
       <updated>1719708941176</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Metodo OpcaoDois - Testes OpcaoTres.">
+      <option name="closed" value="true" />
+      <created>1719882293628</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719882293628</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Metodo OpcaoDois - Testes OpcaoTres.">
+      <option name="closed" value="true" />
+      <created>1719882378380</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719882378380</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Metodo OpcaoTres - Testes OpcaoQuatro.">
+      <option name="closed" value="true" />
+      <created>1720033336544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720033336544</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Função 1 - Buscar livros" />
     <MESSAGE value="Atualização dos Projetos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização dos Projetos." />
+    <MESSAGE value="Metodo OpcaoDois - Testes OpcaoTres." />
+    <MESSAGE value="Metodo OpcaoTres - Testes OpcaoQuatro." />
+    <option name="LAST_COMMIT_MESSAGE" value="Metodo OpcaoTres - Testes OpcaoQuatro." />
   </component>
 </project>
