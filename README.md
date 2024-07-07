@@ -1,3 +1,8 @@
+Esse Repositorio tem como objetivo Anexar todos os desafios realizados durante o Projeto One, disponibilizado pela Alura em conjunto com a Oracle.
+
+
+
+
 Projeto - Literalura
 
 
