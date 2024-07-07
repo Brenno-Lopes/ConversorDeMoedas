@@ -18,7 +18,7 @@ Luri (IA disponibilizada para estudantes Alura apartir de um determinado plano);
 Discord dos Alunos Alura;
 Documentos fornecidos pela API exchangerate;
 
-------##########------- ------##########------- ------##########------- ------##########------- ------##########------- ------##########-------
+------##########------- ------##########------- ------##########------- ------##########-------
 
 Projeto - Literalura
 
@@ -40,7 +40,7 @@ Luri (IA disponibilizada para estudantes Alura apartir de um determinado plano);
 Documentos fornecidos pela API Gutendex;
 Discord dos Alunos Alura;
 
-------##########-------------##########-------------##########-------------##########-------------##########-------------##########-------
+------##########------- ------##########------- ------##########------- ------##########-------
 
 
 Autor dos Projetos;
