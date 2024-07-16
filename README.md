@@ -60,10 +60,10 @@ Luri (IA disponibilizada para estudantes Alura apartir de um determinado plano);
 Discord dos Alunos Alura;
 Video aula disponibilizada pela Alura;
 Artigos de Spring Boot e Rest;
-https://www.alura.com.br/artigos/rest-conceito-e-fundamentos
-https://spring.io/projects/spring-boot
-https://www.alura.com.br/artigos/o-que-e-json-web-tokens
-https://www.alura.com.br/artigos/tipos-de-autenticacao
+- https://www.alura.com.br/artigos/rest-conceito-e-fundamentos
+- https://spring.io/projects/spring-boot
+- https://www.alura.com.br/artigos/o-que-e-json-web-tokens
+- https://www.alura.com.br/artigos/tipos-de-autenticacao
 
 
 
